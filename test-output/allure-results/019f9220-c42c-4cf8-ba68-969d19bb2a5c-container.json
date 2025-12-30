@@ -1,0 +1,1 @@
+{"uuid":"019f9220-c42c-4cf8-ba68-969d19bb2a5c","name":"com.automationexercices.tests.ui.CartTest","children":["60651538-ae95-49a7-9763-5957e01a9244"],"befores":[{"name":"preCondition","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1766659692827,"stop":1766659692843}],"afters":[],"start":1766659692764,"stop":1766659940068}
