@@ -1,0 +1,234 @@
+[INFO] - [25-12-2025 12:48:10] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started
+[INFO] - [25-12-2025 12:48:10] [main] [com.automationexercices.FileUtils] - File deleted: D:\automation-exercise\test-output\Logs\logs.log
+[INFO] - [25-12-2025 12:48:10] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [25-12-2025 12:48:10] [main] [com.automationexercices.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [25-12-2025 12:48:10] [main] [com.automationexercices.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [25-12-2025 12:48:10] [main] [com.automationexercices.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] - [25-12-2025 12:48:10] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created
+[INFO] - [25-12-2025 12:48:10] [main] [com.automationexercices.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [25-12-2025 12:48:10] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded
+[INFO] - [25-12-2025 12:48:10] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [25-12-2025 12:48:12] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [25-12-2025 12:48:12] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set
+[INFO] - [25-12-2025 12:48:12] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [25-12-2025 12:48:12] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [25-12-2025 12:48:26] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [25-12-2025 12:48:26] [main] [com.automationexercices.utils.actions.BrowserActions] - Extension tab closed
+[INFO] - [25-12-2025 12:48:27] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case verifyProductDetailsOnCartWithoutLogin started
+[INFO] - [25-12-2025 12:48:27] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com/products
+[DEBUG] - [25-12-2025 12:48:27] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product']['name']
+[INFO] - [25-12-2025 12:48:27] [main] [com.automationexercices.utils.actions.ElementActions] - Hovered over element: By.xpath: //div[@class='features_items'] //div[@class='productinfo text-center'] /p[.='Men Tshirt']
+[INFO] - [25-12-2025 12:48:28] [main] [com.automationexercices.utils.actions.ElementActions] - initialLocation: (851, 746)
+[INFO] - [25-12-2025 12:48:28] [main] [com.automationexercices.utils.actions.ElementActions] - finalLocation: (851, 765)
+[INFO] - [25-12-2025 12:48:28] [main] [com.automationexercices.utils.actions.ElementActions] - initialLocation: (851, 867)
+[INFO] - [25-12-2025 12:48:28] [main] [com.automationexercices.utils.actions.ElementActions] - finalLocation: (851, 875)
+[INFO] - [25-12-2025 12:48:28] [main] [com.automationexercices.utils.actions.ElementActions] - initialLocation: (851, 884)
+[INFO] - [25-12-2025 12:48:28] [main] [com.automationexercices.utils.actions.ElementActions] - finalLocation: (851, 884)
+[INFO] - [25-12-2025 12:48:28] [main] [com.automationexercices.utils.actions.ElementActions] - Clicked on element: By.xpath: //div[@class='features_items'] //div[@class='overlay-content'] /p[.='Men Tshirt'] //following-sibling::a
+[DEBUG] - [25-12-2025 12:48:28] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['messages']['cartAdded']
+[INFO] - [25-12-2025 12:48:28] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.cssSelector: .modal-body > p - Text: 
+[INFO] - [25-12-2025 12:48:28] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.cssSelector: .modal-body > p - Text: 
+[INFO] - [25-12-2025 12:48:28] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.cssSelector: .modal-body > p - Text: 
+[INFO] - [25-12-2025 12:48:29] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.cssSelector: .modal-body > p - Text: Your product has been added to cart.
+[INFO] - [25-12-2025 12:48:29] [main] [com.automationexercices.pages.ProductsPage] - Validating item added label: Your product has been added to cart.
+[INFO] - [25-12-2025 12:48:29] [main] [com.automationexercices.utils.actions.ElementActions] - initialLocation: (718, 784)
+[INFO] - [25-12-2025 12:48:29] [main] [com.automationexercices.utils.actions.ElementActions] - finalLocation: (718, 784)
+[INFO] - [25-12-2025 12:48:29] [main] [com.automationexercices.utils.actions.ElementActions] - Clicked on element: By.cssSelector: p > [href="/view_cart"]
+[DEBUG] - [25-12-2025 12:48:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product']['name']
+[DEBUG] - [25-12-2025 12:48:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product']['price']
+[DEBUG] - [25-12-2025 12:48:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product']['quantity']
+[DEBUG] - [25-12-2025 12:48:29] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product']['total']
+[INFO] - [25-12-2025 12:48:29] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: (//h4  /a[.='Men Tshirt'])[1] - Text: Men Tshirt
+[INFO] - [25-12-2025 12:48:29] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: (//h4  /a[.='Men Tshirt'] //following::td[@class='cart_price'] /p)[1] - Text: Rs. 400
+[INFO] - [25-12-2025 12:48:29] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: (//h4  /a[.='Men Tshirt'] //following::td[@class='cart_quantity'] /button)[1] - Text: 1
+[INFO] - [25-12-2025 12:48:29] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: (//h4  /a[.='Men Tshirt'] //following::td[@class='cart_total'] /p)[1] - Text: Rs. 400
+[INFO] - [25-12-2025 12:48:30] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [25-12-2025 12:48:30] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case verifyProductDetailsOnCartWithoutLogin passed
+[INFO] - [25-12-2025 12:48:31] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [25-12-2025 12:48:31] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [25-12-2025 12:48:48] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [25-12-2025 12:48:48] [main] [com.automationexercices.utils.actions.BrowserActions] - Extension tab closed
+[INFO] - [25-12-2025 12:48:48] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case registerNewAccount started
+[INFO] - [25-12-2025 12:48:53] [main] [com.automationexercices.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 201, "message": "User created!"}</body>
+</html>
+[INFO] - [25-12-2025 12:48:54] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [25-12-2025 12:48:54] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case registerNewAccount passed
+[INFO] - [25-12-2025 12:48:54] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case loginToAccount started
+[INFO] - [25-12-2025 12:48:55] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com/login
+[INFO] - [25-12-2025 12:48:56] [main] [com.automationexercices.utils.actions.ElementActions] - Typed text 'automationcheckout_1766659692670@gmail.com' into element: By.cssSelector: [data-qa="login-email"]
+[INFO] - [25-12-2025 12:48:56] [main] [com.automationexercices.utils.actions.ElementActions] - Typed text 'P@ssw0rd' into element: By.cssSelector: [data-qa="login-password"]
+[INFO] - [25-12-2025 12:48:56] [main] [com.automationexercices.utils.actions.ElementActions] - initialLocation: (283, 417)
+[INFO] - [25-12-2025 12:48:56] [main] [com.automationexercices.utils.actions.ElementActions] - finalLocation: (283, 417)
+[INFO] - [25-12-2025 12:48:57] [main] [com.automationexercices.utils.actions.ElementActions] - Clicked on element: By.cssSelector: [data-qa="login-button"]
+[INFO] - [25-12-2025 12:48:57] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.tagName: b - Text: Automation_checkout
+[INFO] - [25-12-2025 12:48:57] [main] [com.automationexercices.pages.components.NavigationBarComponent] - Verifying user label: Automation_checkout
+[INFO] - [25-12-2025 12:48:57] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [25-12-2025 12:48:58] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case loginToAccount passed
+[INFO] - [25-12-2025 12:48:58] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case addProductToCart started
+[INFO] - [25-12-2025 12:48:58] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com/products
+[INFO] - [25-12-2025 12:48:59] [main] [com.automationexercices.utils.actions.ElementActions] - Hovered over element: By.xpath: //div[@class='features_items'] //div[@class='productinfo text-center'] /p[.='Men Tshirt']
+[INFO] - [25-12-2025 12:48:59] [main] [com.automationexercices.utils.actions.ElementActions] - initialLocation: (851, 582)
+[INFO] - [25-12-2025 12:48:59] [main] [com.automationexercices.utils.actions.ElementActions] - finalLocation: (851, 593)
+[INFO] - [25-12-2025 12:48:59] [main] [com.automationexercices.utils.actions.ElementActions] - initialLocation: (851, 654)
+[INFO] - [25-12-2025 12:48:59] [main] [com.automationexercices.utils.actions.ElementActions] - finalLocation: (851, 658)
+[INFO] - [25-12-2025 12:48:59] [main] [com.automationexercices.utils.actions.ElementActions] - initialLocation: (851, 672)
+[INFO] - [25-12-2025 12:48:59] [main] [com.automationexercices.utils.actions.ElementActions] - finalLocation: (851, 673)
+[INFO] - [25-12-2025 12:48:59] [main] [com.automationexercices.utils.actions.ElementActions] - initialLocation: (851, 673)
+[INFO] - [25-12-2025 12:48:59] [main] [com.automationexercices.utils.actions.ElementActions] - finalLocation: (851, 673)
+[INFO] - [25-12-2025 12:48:59] [main] [com.automationexercices.utils.actions.ElementActions] - Clicked on element: By.xpath: //div[@class='features_items'] //div[@class='overlay-content'] /p[.='Men Tshirt'] //following-sibling::a
+[INFO] - [25-12-2025 12:48:59] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.cssSelector: .modal-body > p - Text: 
+[INFO] - [25-12-2025 12:48:59] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.cssSelector: .modal-body > p - Text: 
+[INFO] - [25-12-2025 12:49:00] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.cssSelector: .modal-body > p - Text: 
+[INFO] - [25-12-2025 12:49:00] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.cssSelector: .modal-body > p - Text: 
+[INFO] - [25-12-2025 12:49:00] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.cssSelector: .modal-body > p - Text: Your product has been added to cart.
+[INFO] - [25-12-2025 12:49:00] [main] [com.automationexercices.pages.ProductsPage] - Validating item added label: Your product has been added to cart.
+[INFO] - [25-12-2025 12:49:00] [main] [com.automationexercices.utils.actions.ElementActions] - initialLocation: (718, 573)
+[INFO] - [25-12-2025 12:49:00] [main] [com.automationexercices.utils.actions.ElementActions] - finalLocation: (718, 573)
+[INFO] - [25-12-2025 12:49:01] [main] [com.automationexercices.utils.actions.ElementActions] - Clicked on element: By.cssSelector: p > [href="/view_cart"]
+[INFO] - [25-12-2025 12:49:01] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: (//h4  /a[.='Men Tshirt'])[1] - Text: Men Tshirt
+[INFO] - [25-12-2025 12:49:01] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: (//h4  /a[.='Men Tshirt'] //following::td[@class='cart_price'] /p)[1] - Text: Rs. 400
+[INFO] - [25-12-2025 12:49:01] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: (//h4  /a[.='Men Tshirt'] //following::td[@class='cart_quantity'] /button)[1] - Text: 1
+[INFO] - [25-12-2025 12:49:01] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: (//h4  /a[.='Men Tshirt'] //following::td[@class='cart_total'] /p)[1] - Text: Rs. 400
+[INFO] - [25-12-2025 12:49:01] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [25-12-2025 12:49:02] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case addProductToCart passed
+[INFO] - [25-12-2025 12:49:02] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case checkout started
+[INFO] - [25-12-2025 12:49:02] [main] [com.automationexercices.utils.actions.ElementActions] - initialLocation: (1101, 225)
+[INFO] - [25-12-2025 12:49:02] [main] [com.automationexercices.utils.actions.ElementActions] - finalLocation: (1101, 225)
+[INFO] - [25-12-2025 12:49:03] [main] [com.automationexercices.utils.actions.ElementActions] - Clicked on element: By.xpath: //a[.='Proceed To Checkout']
+[INFO] - [25-12-2025 12:49:03] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_firstname address_lastname'] - Text: Mr. Automation_Firstname Automation_Lastname
+[INFO] - [25-12-2025 12:49:03] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][1] - Text: Automation_Company
+[INFO] - [25-12-2025 12:49:03] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][2] - Text: Automation_Address1
+[INFO] - [25-12-2025 12:49:03] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][3] - Text: Automation_Address2
+[INFO] - [25-12-2025 12:49:03] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_city address_state_name address_postcode'] - Text: 12345 Automation_City Automation_State
+[INFO] - [25-12-2025 12:49:03] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_country_name'] - Text: India
+[INFO] - [25-12-2025 12:49:03] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_phone'] - Text: 1234567890
+[INFO] - [25-12-2025 12:49:03] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_firstname address_lastname'] - Text: Mr. Automation_Firstname Automation_Lastname
+[INFO] - [25-12-2025 12:49:03] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_address1 address_address2'][1] - Text: Automation_Company
+[INFO] - [25-12-2025 12:49:03] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][2] - Text: Automation_Address1
+[INFO] - [25-12-2025 12:49:03] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_address1 address_address2'][3] - Text: Automation_Address2
+[INFO] - [25-12-2025 12:49:04] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_city address_state_name address_postcode'] - Text: 12345 Automation_City Automation_State
+[INFO] - [25-12-2025 12:49:04] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_country_name'] - Text: India
+[INFO] - [25-12-2025 12:49:04] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_phone'] - Text: 1234567890
+[INFO] - [25-12-2025 12:49:04] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [25-12-2025 12:49:04] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case checkout passed
+[INFO] - [25-12-2025 12:49:04] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case deleteAccountAsPostCondition started
+[INFO] - [25-12-2025 12:49:05] [main] [com.automationexercices.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 200, "message": "Account deleted!"}</body>
+</html>
+[INFO] - [25-12-2025 12:49:05] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [25-12-2025 12:49:05] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case deleteAccountAsPostCondition passed
+[INFO] - [25-12-2025 12:49:05] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [25-12-2025 12:49:05] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [25-12-2025 12:49:08] [main] [com.automationexercices.utils.actions.BrowserActions] - Extension tab closed
+[INFO] - [25-12-2025 12:49:11] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [25-12-2025 12:49:11] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case registerNewAccount started
+[INFO] - [25-12-2025 12:49:13] [main] [com.automationexercices.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 201, "message": "User created!"}</body>
+</html>
+[INFO] - [25-12-2025 12:49:13] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [25-12-2025 12:49:13] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case registerNewAccount passed
+[INFO] - [25-12-2025 12:49:13] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case loginToAccount started
+[INFO] - [25-12-2025 12:49:14] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com/login
+[INFO] - [25-12-2025 12:49:14] [main] [com.automationexercices.utils.actions.ElementActions] - Typed text 'automationcheckout_1766659692686@gmail.com' into element: By.cssSelector: [data-qa="login-email"]
+[INFO] - [25-12-2025 12:49:14] [main] [com.automationexercices.utils.actions.ElementActions] - Typed text 'P@ssw0rd' into element: By.cssSelector: [data-qa="login-password"]
+[INFO] - [25-12-2025 12:49:14] [main] [com.automationexercices.utils.actions.ElementActions] - initialLocation: (283, 417)
+[INFO] - [25-12-2025 12:49:14] [main] [com.automationexercices.utils.actions.ElementActions] - finalLocation: (283, 417)
+[INFO] - [25-12-2025 12:49:14] [main] [com.automationexercices.utils.actions.ElementActions] - Clicked on element: By.cssSelector: [data-qa="login-button"]
+[INFO] - [25-12-2025 12:49:16] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.tagName: b - Text: Automation_checkout
+[INFO] - [25-12-2025 12:49:16] [main] [com.automationexercices.pages.components.NavigationBarComponent] - Verifying user label: Automation_checkout
+[INFO] - [25-12-2025 12:49:16] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [25-12-2025 12:49:16] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case loginToAccount passed
+[INFO] - [25-12-2025 12:49:16] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case addProductToCart started
+[INFO] - [25-12-2025 12:49:16] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com/products
+[INFO] - [25-12-2025 12:49:17] [main] [com.automationexercices.utils.actions.ElementActions] - Hovered over element: By.xpath: //div[@class='features_items'] //div[@class='productinfo text-center'] /p[.='Men Tshirt']
+[INFO] - [25-12-2025 12:49:17] [main] [com.automationexercices.utils.actions.ElementActions] - initialLocation: (851, 582)
+[INFO] - [25-12-2025 12:49:17] [main] [com.automationexercices.utils.actions.ElementActions] - finalLocation: (851, 582)
+[INFO] - [25-12-2025 12:49:17] [main] [com.automationexercices.utils.actions.ElementActions] - Clicked on element: By.xpath: //div[@class='features_items'] //div[@class='overlay-content'] /p[.='Men Tshirt'] //following-sibling::a
+[INFO] - [25-12-2025 12:49:17] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.cssSelector: .modal-body > p - Text: 
+[INFO] - [25-12-2025 12:49:17] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.cssSelector: .modal-body > p - Text: 
+[INFO] - [25-12-2025 12:49:17] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.cssSelector: .modal-body > p - Text: 
+[INFO] - [25-12-2025 12:49:17] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.cssSelector: .modal-body > p - Text: 
+[INFO] - [25-12-2025 12:49:17] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.cssSelector: .modal-body > p - Text: Your product has been added to cart.
+[INFO] - [25-12-2025 12:49:17] [main] [com.automationexercices.pages.ProductsPage] - Validating item added label: Your product has been added to cart.
+[INFO] - [25-12-2025 12:49:17] [main] [com.automationexercices.utils.actions.ElementActions] - initialLocation: (718, 481)
+[INFO] - [25-12-2025 12:49:18] [main] [com.automationexercices.utils.actions.ElementActions] - finalLocation: (718, 481)
+[INFO] - [25-12-2025 12:49:18] [main] [com.automationexercices.utils.actions.ElementActions] - Clicked on element: By.cssSelector: p > [href="/view_cart"]
+[INFO] - [25-12-2025 12:49:18] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: (//h4  /a[.='Men Tshirt'])[1] - Text: Men Tshirt
+[INFO] - [25-12-2025 12:49:18] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: (//h4  /a[.='Men Tshirt'] //following::td[@class='cart_price'] /p)[1] - Text: Rs. 400
+[INFO] - [25-12-2025 12:49:18] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: (//h4  /a[.='Men Tshirt'] //following::td[@class='cart_quantity'] /button)[1] - Text: 1
+[INFO] - [25-12-2025 12:49:18] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: (//h4  /a[.='Men Tshirt'] //following::td[@class='cart_total'] /p)[1] - Text: Rs. 400
+[INFO] - [25-12-2025 12:49:19] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [25-12-2025 12:49:19] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case addProductToCart passed
+[INFO] - [25-12-2025 12:49:19] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case checkout started
+[INFO] - [25-12-2025 12:49:19] [main] [com.automationexercices.utils.actions.ElementActions] - initialLocation: (1101, 225)
+[INFO] - [25-12-2025 12:49:19] [main] [com.automationexercices.utils.actions.ElementActions] - finalLocation: (1101, 225)
+[INFO] - [25-12-2025 12:49:19] [main] [com.automationexercices.utils.actions.ElementActions] - Clicked on element: By.xpath: //a[.='Proceed To Checkout']
+[INFO] - [25-12-2025 12:49:19] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_firstname address_lastname'] - Text: Mr. Automation_Firstname Automation_Lastname
+[INFO] - [25-12-2025 12:49:19] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][1] - Text: Automation_Company
+[INFO] - [25-12-2025 12:49:19] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][2] - Text: Automation_Address1
+[INFO] - [25-12-2025 12:49:19] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][3] - Text: Automation_Address2
+[INFO] - [25-12-2025 12:49:19] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_city address_state_name address_postcode'] - Text: 12345 Automation_City Automation_State
+[INFO] - [25-12-2025 12:49:19] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_country_name'] - Text: India
+[INFO] - [25-12-2025 12:49:20] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_phone'] - Text: 1234567890
+[INFO] - [25-12-2025 12:49:20] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_firstname address_lastname'] - Text: Mr. Automation_Firstname Automation_Lastname
+[INFO] - [25-12-2025 12:49:20] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_address1 address_address2'][1] - Text: Automation_Company
+[INFO] - [25-12-2025 12:49:20] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][2] - Text: Automation_Address1
+[INFO] - [25-12-2025 12:49:20] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_address1 address_address2'][3] - Text: Automation_Address2
+[INFO] - [25-12-2025 12:49:20] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_city address_state_name address_postcode'] - Text: 12345 Automation_City Automation_State
+[INFO] - [25-12-2025 12:49:20] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_country_name'] - Text: India
+[INFO] - [25-12-2025 12:49:20] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_phone'] - Text: 1234567890
+[INFO] - [25-12-2025 12:49:20] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [25-12-2025 12:49:20] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case checkout passed
+[INFO] - [25-12-2025 12:49:20] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case paymentTest started
+[INFO] - [25-12-2025 12:49:20] [main] [com.automationexercices.utils.actions.ElementActions] - initialLocation: (1156, 1147)
+[INFO] - [25-12-2025 12:49:20] [main] [com.automationexercices.utils.actions.ElementActions] - finalLocation: (1156, 1147)
+[INFO] - [25-12-2025 12:49:21] [main] [com.automationexercices.utils.actions.ElementActions] - Clicked on element: By.xpath: //a[.='Place Order']
+[INFO] - [25-12-2025 12:49:21] [main] [com.automationexercices.utils.actions.ElementActions] - Typed text 'Automation Card' into element: By.name: name_on_card
+[INFO] - [25-12-2025 12:49:21] [main] [com.automationexercices.utils.actions.ElementActions] - Typed text '1234567890123456' into element: By.name: card_number
+[INFO] - [25-12-2025 12:49:21] [main] [com.automationexercices.utils.actions.ElementActions] - Typed text '123' into element: By.name: cvc
+[INFO] - [25-12-2025 12:49:21] [main] [com.automationexercices.utils.actions.ElementActions] - Typed text '12' into element: By.name: expiry_month
+[INFO] - [25-12-2025 12:49:21] [main] [com.automationexercices.utils.actions.ElementActions] - Typed text '2036' into element: By.name: expiry_year
+[INFO] - [25-12-2025 12:49:21] [main] [com.automationexercices.utils.actions.ElementActions] - initialLocation: (591, 548)
+[INFO] - [25-12-2025 12:49:21] [main] [com.automationexercices.utils.actions.ElementActions] - finalLocation: (591, 548)
+[INFO] - [25-12-2025 12:49:23] [main] [com.automationexercices.utils.actions.ElementActions] - Clicked on element: By.id: submit
+[INFO] - [25-12-2025 12:49:23] [main] [com.automationexercices.utils.actions.ElementActions] - Retrieved text from element: By.cssSelector: h2 > b - Text: ORDER PLACED!
+[INFO] - [25-12-2025 12:49:23] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [25-12-2025 12:49:23] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case paymentTest passed
+[INFO] - [25-12-2025 12:49:23] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case deleteAccountAsPostCondition started
+[INFO] - [25-12-2025 12:49:24] [main] [com.automationexercices.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 200, "message": "Account deleted!"}</body>
+</html>
+[INFO] - [25-12-2025 12:49:24] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [25-12-2025 12:49:24] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case deleteAccountAsPostCondition passed
+[INFO] - [25-12-2025 12:49:24] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case downloadInvoice started
+[INFO] - [25-12-2025 12:49:24] [main] [com.automationexercices.utils.actions.ElementActions] - initialLocation: (303, 339)
+[INFO] - [25-12-2025 12:49:24] [main] [com.automationexercices.utils.actions.ElementActions] - finalLocation: (303, 339)
+[INFO] - [25-12-2025 12:49:25] [main] [com.automationexercices.utils.actions.ElementActions] - Clicked on element: By.xpath: //a[.='Download Invoice']
+[INFO] - [25-12-2025 12:49:25] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [25-12-2025 12:49:26] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case downloadInvoice passed
+[INFO] - [25-12-2025 12:49:26] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [25-12-2025 12:49:26] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [25-12-2025 12:49:38] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [25-12-2025 12:49:38] [main] [com.automationexercices.utils.actions.BrowserActions] - Extension tab closed
+[INFO] - [25-12-2025 12:49:38] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case inValidLoginUsingInvalidEmailTC started
+[INFO] - [25-12-2025 12:49:39] [main] [com.automationexercices.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 201, "message": "User created!"}</body>
+</html>
+[INFO] - [25-12-2025 12:49:40] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com/login
+[INFO] - [25-12-2025 12:49:40] [main] [com.automationexercices.utils.actions.ElementActions] - Typed text 'automationtest_@gmail.com' into element: By.cssSelector: [data-qa="login-email"]
+[INFO] - [25-12-2025 12:49:40] [main] [com.automationexercices.utils.actions.ElementActions] - Typed text 'P@ssw0rd' into element: By.cssSelector: [data-qa="login-password"]
+[INFO] - [25-12-2025 12:49:40] [main] [com.automationexercices.utils.actions.ElementActions] - initialLocation: (283, 417)
+[INFO] - [25-12-2025 12:49:40] [main] [com.automationexercices.utils.actions.ElementActions] - finalLocation: (283, 417)
+[INFO] - [25-12-2025 12:49:41] [main] [com.automationexercices.utils.actions.ElementActions] - Clicked on element: By.cssSelector: [data-qa="login-button"]
+[INFO] - [25-12-2025 12:49:56] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [25-12-2025 12:49:56] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case inValidLoginUsingInvalidEmailTC failed
+[INFO] - [25-12-2025 12:49:56] [main] [com.automationexercices.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [25-12-2025 12:49:56] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [25-12-2025 12:50:13] [main] [com.automationexercices.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [25-12-2025 12:50:13] [main] [com.automationexercices.utils.actions.BrowserActions] - Extension tab closed
+[INFO] - [25-12-2025 12:50:13] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case inValidLoginUsingInvalidPasswordTC started
+[INFO] - [25-12-2025 12:50:14] [main] [com.automationexercices.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 400, "message": "Email already exists!"}</body>
+</html>
+[INFO] - [25-12-2025 12:50:14] [main] [com.automationexercices.media.ScreenshotsManager] - Capturing Screenshot Succeeded
